@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './componentes/boton';
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+
+          <div>
+            <Button onClick={()=>ImputNumber(7)}>7</Button>
+          </div>
         </a>
       </header>
     </div>
